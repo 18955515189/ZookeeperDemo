@@ -50,7 +50,7 @@ public class SimpleZkClient {
     }
 
     /**
-     * 测试创建节点
+     * 创建节点
      */
     @Test
     public void testCreate(){
@@ -83,7 +83,7 @@ public class SimpleZkClient {
     }
 
     /**
-     * 测试删除节点
+     * 删除节点
      */
     @Test
     public void testDelete(){
@@ -99,7 +99,7 @@ public class SimpleZkClient {
     }
 
     /**
-     * 测试修改节点数据
+     * 修改节点数据
      */
     @Test
     public void testUpdate(){
@@ -115,7 +115,7 @@ public class SimpleZkClient {
     }
 
     /**
-     * 测试判断节点是否存在
+     * 判断节点是否存在
      */
     @Test
     public void testExists(){
