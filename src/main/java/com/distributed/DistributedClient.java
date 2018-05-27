@@ -9,7 +9,7 @@ import java.util.List;
 
 public class DistributedClient {
 
-	private static final String connectString = "mini1:2181,mini2:2181,mini3:2181";
+	private static final String connectString = "hadoop01:2181,hadoop02:2181,hadoop03:2181";
 	private static final int sessionTimeout = 2000;
 	private static final String parentNode = "/servers";
 	// 注意:加volatile的意义何在？
